@@ -1,0 +1,191 @@
+
+/* 
+font-family: 'Monda', sans-serif;
+*/
+
+/* ESTRUCTURA GLOBAL */
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Monda', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #C6D169;
+}
+html.vr body{
+    font-size: 4vh;
+}
+#wrapper{
+    position: relative;
+}
+
+#debug{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+
+/* ESTRUCTURA DE ESCENAS */
+.escena{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+   /* border-top: 1px solid #000;*/
+}
+
+#escena_0{
+    top:0;
+}
+#escena_1{
+    top:100vh;
+    z-index: 10;
+}
+#escena_2{
+    top:200vh;
+    z-index: 5;
+}
+#escena_3{
+   top:300vh; 
+    z-index: 6;
+}
+#escena_4{
+    top:500vh;
+    z-index: 2;
+}
+#escena_5{
+    top:600vh;
+    z-index: 4;
+}
+#escena_6{
+    top:700vh;
+    z-index: 11;
+}
+#escena_7{
+    top:850vh;
+    z-index: 12;
+}
+
+
+
+/* escena 0 */
+#escena_0 h1{
+    position: absolute;
+    top: 0;bottom:0;left:0;right: 0;
+    margin: auto;
+    height: 300px;
+    font-size: 8vh;
+}
+
+
+
+/* escena 1 */
+#escena_1 p{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 10%;
+    margin-top: 10vh;
+}
+#establo{
+    width: 40%;
+    display: inline-block;
+}
+
+
+
+/* escena 2 */
+
+#huevo{
+    position: absolute;
+    top:-80px;
+    right: 0;
+    opacity: 0;
+}
+
+
+
+/* escena 3 */
+#huevoCombinado{
+    
+}
+#pollo{
+    position: absolute;
+    top:-75px;
+    right: 20px;
+    opacity: 0;
+    
+}
+#huevoBottom{
+    position: absolute;
+    top:-80px;
+    right: 0;
+    opacity: 0;
+}
+#huevoTop{
+    position: absolute;
+    top:-80px;
+    right: 0;
+    opacity: 0;
+}
+
+
+
+/* escena 4 */
+#polloAnimado{
+    width: 45vw;
+    max-width: 120px;
+}
+
+
+
+
+/* escena 5 */
+#camino{
+    width: 200%;
+}
+.cartel{
+    max-width: 240px;
+    height: 160px;
+    width: 20%;
+    margin-right: 15%;
+    margin-top: 10vh;
+}
+html.vr .cartel{
+   width: 25vh; 
+    margin-right: 5%;
+}
+#cartel1{
+    display: inline-block;
+}
+#cartel2{
+    display: inline-block;
+}
+#cartel3{
+    display: inline-block;
+}
+
+
+
+/* escena 6 */
+#escena_6 p{
+    color: #000000;
+}
+#gallinaAnimada{
+    position: absolute;
+    top: 45px;
+}
+
+
+
+/* escena 7 */
+#gallinaFinal{
+    margin-top: 20vh;
+}

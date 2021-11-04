@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+    font-size: 1em;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin: 0;
+}
+header{
+    position: fixed;
+    background-color: #456bac;
+    color: #fff;
+    z-index: 10;
+    left: 0;right: 0;top: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 300;
+    font-size: 0.75em;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+
+/* PARALLAX */
+.content{
+    position: relative;
+    background-attachment: fixed;
+}
+
+#content1{
+    background-image: url(../images/ThinkstockPhotos-479260062.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#content1 h1{
+    position: absolute;
+    text-align: center;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin: auto;
+    display: block;
+    height: 30px;
+}
+#content2{
+    
+}
+#content3{
+    background-image: url(../images/ThinkstockPhotos-465455404.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#content4{
+    
+}
+#content5{
+    background-image: url(../images/ThinkstockPhotos-482630918.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+html.mobile #content5{
+    height: 100vh;
+    padding-top: 20px;
+}
+#content5 p{
+    padding-top: 20vh;
+}
+html.mobile #content5 p{
+    padding-top: 10vh;
+}
+    
+
+
+/* DISEÑO */
+#content1 h1{
+    color: #ffffff;
+    text-shadow: 0px 0px 14px rgba(0,0,0, 0.75);
+}
+
+#content2 {
+    box-shadow: inset 0px 10px 10px rgba(0,0,0, 0.3);
+}
+html.mobile #content2 {
+    box-shadow: none;
+}
+#content2 p{
+    padding: 20px 40px;
+    font-size: 0.8;
+    font-weight: 300;
+}
+#content4 {
+    box-shadow: inset 0px 10px 10px rgba(0,0,0, 0.3);
+    background-color: beige;
+}
+html.mobile #content4 {
+    box-shadow: none;
+    background-color: transparent;
+}
+#content4 p{
+    padding: 20px 40px;
+    font-size: 0.8;
+    font-weight: 300;
+}
+#content5 p span{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    background-color: rgba(8, 8, 42, 0.75);
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    box-shadow: inset 0px 10px 10px rgba(0,0,0, 0.3);
+}
